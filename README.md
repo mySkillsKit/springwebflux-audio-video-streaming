@@ -13,4 +13,7 @@ GET ``http://localhost:8080/audio/music``
 GET ``http://localhost:8080/video/videoclip``
 *Headers KEY = ``Range``  VALUE = ``bytes=0-10000000``
 
+<img src="https://github.com/mySkillsKit/springwebflux-audio-video-streaming/blob/main/getAudio.JPG" alt="getaudiopostman.jpg">
+<img src="https://github.com/mySkillsKit/springwebflux-audio-video-streaming/blob/main/getVideo.JPG" alt="getvideopostman.jpg">
+
 

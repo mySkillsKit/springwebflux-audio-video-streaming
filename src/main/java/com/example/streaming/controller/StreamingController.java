@@ -25,7 +25,6 @@ public class StreamingController {
     @GetMapping(value = "audio/{title}", produces = "audio/mp3")
     public Mono<Resource> getAudios(@PathVariable String title, @RequestHeader("Range") String range) {
         System.out.println(title + " range in bytes() : " + range);
-        System.out.println("fm");
         return service.getAudio(title);
     }
 
